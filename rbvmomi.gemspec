@@ -1,4 +1,4 @@
-# Copyright (c) 2016-2017 VMware, Inc.  All Rights Reserved.
+# Copyright (c) 2016-2019 VMware, Inc.  All Rights Reserved.
 # SPDX-License-Identifier: MIT
 
 $LOAD_PATH.unshift(File.expand_path('../lib', __FILE__))
@@ -29,5 +29,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency('yard', '~> 0.9.5')
   spec.add_development_dependency('test-unit', '>= 2.5')
 
-  spec.required_ruby_version = '>= 1.8.7'
+  spec.required_ruby_version = '>= 2.5'
 end
